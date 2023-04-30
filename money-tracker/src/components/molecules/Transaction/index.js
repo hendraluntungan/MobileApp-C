@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginVertical: 10,
     padding: 20,
+    marginVertical: 10,
     backgroundColor: '#FFFFFF',
     borderRadius: 10,
     elevation: 5,
@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
   },
   text2: {
     fontSize: 14,
-    fontFamily: 'Poppins-Medium',
     color: 'black',
+    fontFamily: 'Poppins-Medium',
   },
   text3: color => ({
     fontSize: 16,

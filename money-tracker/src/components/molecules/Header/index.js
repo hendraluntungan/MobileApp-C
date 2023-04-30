@@ -1,6 +1,6 @@
 import {StyleSheet, Text, View, TouchableOpacity} from 'react-native';
-import React from 'react';
 import {IconBack} from '../../../assets';
+import React from 'react';
 import Gap from '../../atoms/Gap';
 
 const Header = ({title, onBack, subtitle}) => {
@@ -28,15 +28,15 @@ export default Header;
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: 'white',
     paddingLeft: 24,
     paddingVertical: 38,
-    backgroundColor: 'white',
     flexDirection: 'row',
     alignItems: 'center',
   },
   text: {
-    fontSize: 22,
     fontFamily: 'Poppins-Medium',
+    fontSize: 22,
     color: 'black',
   },
   back: {
